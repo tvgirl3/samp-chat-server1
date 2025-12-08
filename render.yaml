@@ -1,8 +1,0 @@
-services:
-  - type: pserv
-    name: samp-chat-server
-    env: python
-    region: frankfurt
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python server.py
